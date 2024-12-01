@@ -1,6 +1,6 @@
-# Threaddit - a reddit clone
+# Threadit - a reddit clone
 
-Threaddit is a full-stack Reddit clone; it's a comprehensive web application inspired by Reddit, built using Flask and its diverse libraries for the backend, combined with PostgreSQL for robust database management. The frontend is developed using React.js and its rich set of libraries, offering a seamless and dynamic user experience.
+Threadit is a full-stack Reddit clone; it's a comprehensive web application inspired by Reddit, built using Flask and its diverse libraries for the backend, combined with PostgreSQL for robust database management. The frontend is developed using React.js and its rich set of libraries, offering a seamless and dynamic user experience.
 
 # Contents
 
@@ -43,9 +43,7 @@ On the front end, the project leverages a stack of essential technologies and li
 
 ## Database
 
-The project's backend relies on PostgreSQL, a robust and open-source relational database system, to effectively handle data storage and management. Details about the schema, views, and relationships can be found in the backend folder as an SQL file; the schema is shown below.
-
-![Schema](https://github.com/StarKhan6368/threaddit/assets/77010375/8e60b685-e3a1-4a72-b219-61399fec79a5)
+The project's backend relies on PostgreSQL, a robust and open-source relational database system, to effectively handle data storage and management. Details about the schema, views, and relationships can be found in the backend folder as an SQL file;
 
 # Features
 
@@ -146,7 +144,3 @@ This will start the Flask server.
 - Once the Flask server is running, you can access the application by opening a web browser and navigating to the URL where it's hosted, or you can use `localhost` if you're running it locally.
 
 By following these steps, you should have the project up and running with the necessary database schema and environment variables configured. Make sure to replace the placeholder values with your actual credentials and API keys.
-
-# Hosting
-
-The project is currently hosted on [render.com](https://www.render.com), utilizing their free tier hosting service, primarily driven by financial considerations. The database, which is PostgreSQL, is hosted on Neon DB's free tier, ensuring data accessibility while staying within budget constraints. The project involves user-uploaded images, which are stored and served via Cloudinary's free tier, offering a reliable solution for handling media assets. For those interested in exploring the project, it's accessible at [threaddit.onrender.com](https://threaddit.onrender.com), providing a glimpse into this cost-effective yet functional web application.
